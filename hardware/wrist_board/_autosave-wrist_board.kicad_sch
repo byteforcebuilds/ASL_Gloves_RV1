@@ -728,6 +728,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1141,6 +1324,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "S2B-PH-K-S_LF__SN_:S2B-PH-K-S_LF__SN_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S2B-PH-K-S_LF__SN_"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "S2B-PH-K-S_LF__SN_:JST_S2B-PH-K-S_LF__SN_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "JST Sales"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON STANDARD-2 J.S.T."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "S2B-PH-K-S (LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=998705&manufacturer=JST Sales&part_name=S2B-PH-K-S (LF)(SN)&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole, Right Angle 2 position 0.079 (2.00mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-PH-K-S_LF__SN__0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1257,6 +1684,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 67.31) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0059c390-7283-49c1-8b86-4d18d1bb33c3")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 76.2 45.72)
 		)
 		(stroke
@@ -1317,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 48.26) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493e11b4-f0df-44b7-9674-ed390d85f77e")
+	)
+	(wire
+		(pts
 			(xy 43.18 78.74) (xy 43.18 76.2)
 		)
 		(stroke
@@ -1337,6 +1784,36 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 48.26) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb2cde5-c21c-46a3-abc5-8e8cbcb08458")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b235e50c-2b7d-42b0-af44-8c44a6bba88a")
+	)
+	(wire
+		(pts
+			(xy 143.51 48.26) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72c4995-4d26-42c2-925b-d96db0047fa1")
+	)
+	(wire
+		(pts
 			(xy 35.56 76.2) (xy 43.18 76.2)
 		)
 		(stroke
@@ -1344,6 +1821,16 @@
 			(type default)
 		)
 		(uuid "d0f9e6b2-4d9a-4109-baf8-840281b88c14")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ada9b6-254c-4a3a-9019-8291cf8f7e3c")
 	)
 	(wire
 		(pts
@@ -1365,6 +1852,16 @@
 		)
 		(uuid "f2690fa5-8238-4161-b0ed-461ecdcdd7b4")
 	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778e797-2c1b-4ee6-9142-43b74650887a")
+	)
 	(label "5V"
 		(at 92.71 38.1 0)
 		(effects
@@ -1385,6 +1882,16 @@
 		)
 		(uuid "ae2804d7-9747-431a-a2d2-f73d3431bb21")
 	)
+	(label ""
+		(at 143.51 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0f68393-17c7-4e0c-8b5a-cfa1454c5712")
+	)
 	(label "D-"
 		(at 60.96 50.8 0)
 		(effects
@@ -1394,6 +1901,303 @@
 			(justify left bottom)
 		)
 		(uuid "b72407b1-24a8-4068-8226-3e259d26d4f0")
+	)
+	(label "charger_out"
+		(at 143.51 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6368aee-0baf-4c3a-87ba-f5a576d5e225")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e6cea3-a438-4a5e-88b0-ebbf25557a16")
+		(property "Reference" "D1"
+			(at 115.062 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Charging LED"
+			(at 115.062 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59fabe99-aa3f-42d4-b6f0-8ff2abd13614")
+		)
+		(pin "2"
+			(uuid "d50012b7-f8cf-4443-a214-1bac298e08d4")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S2B-PH-K-S_LF__SN_:S2B-PH-K-S_LF__SN_")
+		(at 170.18 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08491ffa-16a9-4f93-931a-b68a61cad3d8")
+		(property "Reference" "J1"
+			(at 176.53 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-K-S_LF__SN_"
+			(at 176.53 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S2B-PH-K-S_LF__SN_:JST_S2B-PH-K-S_LF__SN_"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-2 J.S.T."
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=eda"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S%20(LF)(SN)/JST/view-part/?ref=snap"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S2B-PH-K-S (LF)(SN)"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=998705&manufacturer=JST Sales&part_name=S2B-PH-K-S (LF)(SN)&search_term=None"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 2 position 0.079 (2.00mm)"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df14725-04aa-4b80-9976-8dd12035f1da")
+		)
+		(pin "2"
+			(uuid "44aff513-7c73-42a5-8a88-f9df216d309c")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
@@ -1564,7 +2368,7 @@
 	)
 	(symbol
 		(lib_id "MCP73831T-2ACI_OT:MCP73831T-2ACI_OT")
-		(at 142.24 45.72 0)
+		(at 125.73 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1573,7 +2377,7 @@
 		(fields_autoplaced yes)
 		(uuid "6337d66e-96d2-420d-8dab-4469856c6533")
 		(property "Reference" "U1"
-			(at 142.24 33.02 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +2385,7 @@
 			)
 		)
 		(property "Value" "MCP73831T-2ACI_OT"
-			(at 142.24 35.56 0)
+			(at 125.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2393,7 @@
 			)
 		)
 		(property "Footprint" "MCP73831T-2ACI_OT:SOT95P280X145-5N"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +2412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +2421,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +2431,7 @@
 			)
 		)
 		(property "Description_1" "TINY INTEGRATED LI-ION/LI-POLY CHARGE MGNT CONTROLLER, 4.2V VREG | Microchip Technology Inc. MCP73831T-2ACI/OT"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +2441,7 @@
 			)
 		)
 		(property "PACKAGE" "SOT-5"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +2451,7 @@
 			)
 		)
 		(property "MPN" "MCP73831T-2ACI/OT"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +2461,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +2471,7 @@
 			)
 		)
 		(property "Package" "SOT-23 Microchip"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +2481,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1332158"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +2491,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP73831T-2ACI/OT/Microchip+Technology/view-part/?ref=snap"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +2501,7 @@
 			)
 		)
 		(property "MP" "MCP73831T-2ACI/OT"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2511,7 @@
 			)
 		)
 		(property "SUPPLIER" "Microchip"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +2521,7 @@
 			)
 		)
 		(property "OC_NEWARK" "56K7045"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +2531,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +2541,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MCP73831T-2ACI/OT/Microchip+Technology/view-part/?ref=eda"
-			(at 142.24 45.72 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,6 +2569,141 @@
 			(project ""
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b659535-3caa-42d5-ba3d-0f043be24d00")
+		(property "Reference" "#PWR05"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccfb3a70-99d2-4892-a74f-cd482ac21853")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 107.95 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e6e36e4-8f58-4ecd-9396-46fcae2f6f4d")
+		(property "Reference" "R3"
+			(at 104.14 67.564 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 103.886 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46d18c38-58f3-4f0c-9754-4c7511de9a4f")
+		)
+		(pin "1"
+			(uuid "f85e9741-de3c-4e77-a477-001e71ea9985")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1904,6 +2843,144 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
+		(at 143.51 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6bc01c8-79be-44c4-aac8-1bec2811a4f9")
+		(property "Reference" "C2"
+			(at 146.05 68.7069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 146.05 71.2469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f132977-1152-4297-baa8-5e12de188780")
+		)
+		(pin "2"
+			(uuid "d497cc02-65a8-49aa-aa1f-1491e75b7fa3")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd8ec6e-0d93-4129-9f7e-f20071031a4c")
+		(property "Reference" "R4"
+			(at 133.35 43.18 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 133.35 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019579b8-b3a8-4458-b630-61f1ac88021e")
+		)
+		(pin "2"
+			(uuid "dc9d01f8-974b-4fed-b776-b216d61175b9")
+		)
+		(instances
+			(project ""
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
 		(at 86.36 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1920,7 +2997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 88.9 42.0369 0)
 			(effects
 				(font
