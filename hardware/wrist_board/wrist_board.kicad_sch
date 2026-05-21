@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 530b8e3e-eee5-4922-ab86-607fb3fa4192)
+	(uuid "530b8e3e-eee5-4922-ab86-607fb3fa4192")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 64.77 53.34)
+		(size 31.75 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b71c225-b431-429d-9936-a4baca0b42b9")
+		(property "Sheetname" "power"
+			(at 64.77 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 64.77 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wrist_board"
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 53.34)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d316cad0-6949-4839-9637-d12d2d6e31b9")
+		(property "Sheetname" "ESP and Comms"
+			(at 101.6 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp_and_comms.kicad_sch"
+			(at 101.6 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wrist_board"
+				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
