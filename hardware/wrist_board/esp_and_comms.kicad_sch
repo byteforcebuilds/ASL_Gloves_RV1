@@ -3319,7 +3319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0573f0f9-57a3-4ead-9443-75acba9ddf49")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 185.42 77.47 0)
 			(effects
 				(font
@@ -3337,7 +3337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3389,7 +3389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "119a576f-5aa1-4d6a-accd-321f6b28da65")
-		(property "Reference" "X?"
+		(property "Reference" "X1"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -3733,7 +3733,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "X?")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -3749,7 +3749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15745a06-18a5-43f2-bf76-74d9c7348488")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 71.9933 154.94 0)
 			(effects
 				(font
@@ -3869,7 +3869,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3885,7 +3885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a47866b-1aaf-414e-88b1-8383fe241bbf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -3935,7 +3935,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.19 78.74 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 222.25 115.57 0)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb6f145-8080-4d33-897f-2a3939d4edf3")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 198.12 77.4699 0)
 			(effects
 				(font
@@ -4640,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4692,7 +4692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5146db55-87fc-4a3e-85cb-5701816b647a")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 90.17 126.9999 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 128.27 0)
 			(effects
 				(font
@@ -4746,7 +4746,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "533575fe-f890-4c85-8dcb-77ab4482114f")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 102.87 146.05 0)
 			(effects
 				(font
@@ -4779,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 146.05 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4831,7 +4831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533dd97a-319f-4765-a099-1eab75e70727")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 203.2 82.55 0)
 			(effects
 				(font
@@ -4881,7 +4881,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5340336c-0d48-40ff-ac57-df12e6836d84")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 110.49 81.28 90)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -4949,7 +4949,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5049,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 222.25 130.81 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81edaf6d-f45a-49ab-8fbb-5566640efce3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 124.46 80.01 0)
 			(effects
 				(font
@@ -5151,7 +5151,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5185,7 +5185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 78.74 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 189.23 96.52 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bfd49e3-3842-4d02-85ca-1dcb64b337dc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 69.85 163.83 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5570,7 +5570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a008d113-d89a-4d63-91d3-a55f2a4e08f6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 87.63 129.54 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 96.52 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba482ea-620a-4e88-a430-32b8454e9b60")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 95.25 86.3599 0)
 			(effects
 				(font
@@ -5723,7 +5723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abdee950-9ed9-4255-97f3-ae249856b295")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 48.26 142.24 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -5841,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad94826b-fd3d-4e51-be40-9dbed8d4b733")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -5891,7 +5891,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -5924,7 +5924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdd96181-5491-4981-a830-0d091cce06e3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 67.31 123.19 0)
 			(effects
 				(font
@@ -6026,7 +6026,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -6192,7 +6192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d292d920-47d8-475a-9c86-0eb705868ee6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61f9778-a2bb-409f-bb6f-571579991ea9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 91.44 157.48 0)
 			(effects
 				(font
@@ -6360,7 +6360,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da1ef43f-1892-48e1-8e50-6651c5e957d0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db73ce90-e3ab-4a4c-a9ac-05047c981812")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 72.39 114.3 0)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6592,7 +6592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.11 97.79 0)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 115.57 0)
 			(effects
 				(font
@@ -6732,7 +6732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -6784,7 +6784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81416c9-b333-4ba5-8270-ac40480df020")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6868,7 +6868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 246.38 115.57 0)
 			(effects
 				(font
@@ -6919,7 +6919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f03cca07-247c-4854-a3a0-15889191771c")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 93.98 147.4469 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 148.59 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 		(instances
 			(project "wrist_board"
 				(path "/530b8e3e-eee5-4922-ab86-607fb3fa4192/d316cad0-6949-4839-9637-d12d2d6e31b9"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7073,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -7143,7 +7143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.31 96.52 0)
 			(effects
 				(font
