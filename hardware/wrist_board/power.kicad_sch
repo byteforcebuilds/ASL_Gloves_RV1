@@ -3002,16 +3002,6 @@
 		)
 		(uuid "350d3dd3-8f43-45db-9613-088cae300bc2")
 	)
-	(label "D-"
-		(at 102.87 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44b4d501-f511-4585-92a0-29170e67c5c0")
-	)
 	(label ""
 		(at 171.45 107.95 0)
 		(effects
@@ -3032,15 +3022,27 @@
 		)
 		(uuid "927f4a16-08e4-4655-bb81-7eada5edbff2")
 	)
-	(label "D+"
+	(hierarchical_label "D+"
+		(shape bidirectional)
 		(at 102.87 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "9e4d90de-b29d-41ec-861f-79724602d56a")
+		(uuid "7acb28d7-af3a-4fa9-9f5b-be0196cb4a47")
+	)
+	(hierarchical_label "D-"
+		(shape bidirectional)
+		(at 102.87 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ede5408d-880f-4a5c-ac31-0f12dc0a1c8a")
 	)
 	(symbol
 		(lib_id "Device:R_Small")

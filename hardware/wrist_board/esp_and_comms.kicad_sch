@@ -2381,6 +2381,10 @@
 		(uuid "9de53eed-a7c9-4540-a670-df740fc06703")
 	)
 	(no_connect
+		(at 160.02 83.82)
+		(uuid "a1d1a2b7-56d2-4ca7-846f-1e0d0fb166e5")
+	)
+	(no_connect
 		(at 160.02 111.76)
 		(uuid "c370c415-ed51-458f-9324-1cb0c728eab1")
 	)
@@ -3204,16 +3208,6 @@
 		)
 		(uuid "ce4f2425-97e8-4c6d-9845-c19755de5d8a")
 	)
-	(label "D+"
-		(at 165.1 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd16f3b0-5a58-4c82-a612-ade4c0278b94")
-	)
 	(label "SCL"
 		(at 48.26 133.35 0)
 		(effects
@@ -3224,16 +3218,6 @@
 		)
 		(uuid "de96ce74-0b94-4125-9081-9639c2fa9d9f")
 	)
-	(label "D-"
-		(at 165.1 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2c21ef0-ec30-4765-a3a7-62828bd87657")
-	)
 	(label "FS_3"
 		(at 250.19 73.66 0)
 		(effects
@@ -3243,6 +3227,28 @@
 			(justify left bottom)
 		)
 		(uuid "f8afbf36-801d-4c3b-b1e8-5b34c7370a2d")
+	)
+	(hierarchical_label "D+"
+		(shape bidirectional)
+		(at 165.1 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d27cff6-13b9-4ab0-ad8a-5a10a1ea90a1")
+	)
+	(hierarchical_label "D-"
+		(shape bidirectional)
+		(at 165.1 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e7c8b0c-4cc8-4d07-8d40-00512cf562cb")
 	)
 	(symbol
 		(lib_id "power:GND")

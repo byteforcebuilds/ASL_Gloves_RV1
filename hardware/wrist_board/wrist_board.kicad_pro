@@ -420,14 +420,6 @@
     [
       "530b8e3e-eee5-4922-ab86-607fb3fa4192",
       "Root"
-    ],
-    [
-      "0b71c225-b431-429d-9936-a4baca0b42b9",
-      "power"
-    ],
-    [
-      "d316cad0-6949-4839-9637-d12d2d6e31b9",
-      "ESP and Comms"
     ]
   ],
   "text_variables": {}
