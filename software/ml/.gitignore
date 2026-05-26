@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment — do not commit
+venv/
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset — too large for git, stored locally
+data/
+
+# Model checkpoints
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plots saved from notebooks
+*.png

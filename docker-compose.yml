@@ -1,0 +1,14 @@
+services:
+  ml:
+    build:
+      context: ./software/ml
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./software/ml/notebooks:/workspace/notebooks
+      - ./software/ml/src:/workspace/src
+      - ./software/ml/data:/workspace/data
+    working_dir: /workspace
+    environment:
+      - PYTHONPATH=/workspace/src
