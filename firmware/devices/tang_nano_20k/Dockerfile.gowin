@@ -13,18 +13,22 @@ RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     ghdl \
     iverilog \
-    gtkwave \
-    bambu \
     python3 \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
+# Build argument for Gowin EDA installer filename
+ARG GOWIN_INSTALLER=GowinEDA_V1.9.9_linux.tar.gz
+
 # Install Gowin EDA
 # Download installer from Gowin and place in same folder as this Dockerfile
-COPY GowinEDA_V1.9.9_linux.tar.gz /tmp/
-RUN tar -xzf /tmp/GowinEDA_V1.9.9_linux.tar.gz -C /opt/ \
-    && rm /tmp/GowinEDA_V1.9.9_linux.tar.gz
+COPY ${GOWIN_INSTALLER} /tmp/
+RUN cd /opt \
+    && tar -xzf /tmp/${GOWIN_INSTALLER} \
+    && rm /tmp/${GOWIN_INSTALLER} \
+    && (ls -d /opt/*/bin 2>/dev/null | xargs dirname | head -1 | xargs -I {} mv {} /opt/gowin || echo "Gowin already at /opt/gowin")
 
-ENV PATH="/opt/gowin/IDE/bin:/opt/gowin/Programmer/bin:$PATH"
+ENV PATH="/opt/gowin/bin:/opt/gowin/IDE/bin:/opt/gowin/Programmer/bin:$PATH" \
+    LM_LICENSE_FILE=10559@106.55.34.119
 
 WORKDIR /workspace
