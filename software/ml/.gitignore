@@ -14,7 +14,7 @@ env/
 .ipynb_checkpoints/
 
 # Dataset — too large for git, stored locally
-data/
+/data/
 
 # Model checkpoints
 checkpoints/
