@@ -45,3 +45,12 @@ Thumbs.db
 # Temporary Files
 *.tmp
 *.bak
+
+# User-specific Gowin project settings (like Vivado .xpr.user)
+*.gprj.user
+
+# Bambu generated Verilog output
+src/generated/
+
+sim/*.vcd
+sim/*.ghw
