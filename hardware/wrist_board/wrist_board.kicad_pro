@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|105835000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|f9987f22-0dbd-42e9-a0b4-1288dbd0c2e6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|107515000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|495baeca-2656-474e-9ffa-393aa9eefe5f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|108375000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|a8c75b96-a2ba-443d-ba20-f63e15f6f20c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|115431200|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|596ffe03-882e-4d3f-8031-3926c1b9f2af",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117111200|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|9481c170-18dc-4736-9285-d99de943c35c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|117971200|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|72bdd775-d4c4-4023-9a9c-c58a9051a4e4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|126888000|115680000|395cd29c-7142-422c-b84a-57c586901a77|750d5acb-418d-4ac4-ab56-e2da4a9f69d4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|126888000|97680000|395cd29c-7142-422c-b84a-57c586901a77|20be957b-176b-46af-b14b-60bd57394eb4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|76371000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|db34fbf9-ee0a-4d98-b293-4cc011c90758",
+          ""
+        ],
+        [
+          "silk_edge_clearance|78051000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|c090497c-8830-4b74-8498-517a1869421c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|78911000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|16694c4d-e741-4a45-b927-b2fda13d3f3d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85774000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|67dbb1a0-201c-4ce2-b96b-ae20b12a1e1c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87454000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|f85f9dfd-9e25-4f49-a77f-e11087f80892",
+          ""
+        ],
+        [
+          "silk_edge_clearance|88314000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|d064593d-93b4-496c-8cd5-c123595be0c3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|95675000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|22745252-4372-4cdd-a1a0-282a3bd4d5d9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|97355000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|92fd720f-8a10-4a20-bfd8-da153b0954b4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|98215000|82867500|e2634eae-2744-47d9-bf1b-1e2409d57ccd|54a53a8f-e2f3-47f0-b0ba-ad9da884649f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -502,7 +571,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Downloads/wrist_board.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
