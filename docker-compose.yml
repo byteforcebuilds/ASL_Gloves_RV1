@@ -1,8 +1,4 @@
-version: '3.8'
-
 services:
-
-  # ── ML training service ────────────────────────────────────────────────────
   ml:
     build:
       context: ./software/ml
