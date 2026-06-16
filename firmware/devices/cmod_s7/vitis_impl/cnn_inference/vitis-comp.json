@@ -1,0 +1,11 @@
+{
+  "name": "cnn_inference",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "cnn_inference.cfg"
+    ],
+    "work_dir": "cnn_inference"
+  }
+}
