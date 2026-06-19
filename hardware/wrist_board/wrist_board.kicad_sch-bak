@@ -5068,6 +5068,12 @@
 		(uuid "9d7e6ef5-2251-45c2-83aa-27e4dc0891e6")
 	)
 	(junction
+		(at 261.62 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9edc7a68-dc7d-4f8e-95b3-6438d05e89ae")
+	)
+	(junction
 		(at 300.99 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5207,7 +5213,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 40.64) (xy 262.89 40.64)
+			(xy 261.62 40.64) (xy 262.89 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5827,6 +5833,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 40.64) (xy 261.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c99e31c-546e-45c5-81f8-4de7946aef79")
+	)
+	(wire
+		(pts
 			(xy 327.66 123.19) (xy 327.66 125.73)
 		)
 		(stroke
@@ -6244,6 +6260,16 @@
 			(type default)
 		)
 		(uuid "d1ab3741-ff29-4bbe-8f05-ffb59229b502")
+	)
+	(wire
+		(pts
+			(xy 261.62 36.83) (xy 261.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d367fa4e-afad-436b-88ea-eec1051d1b55")
 	)
 	(wire
 		(pts
@@ -6944,6 +6970,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee4ff648-3ca4-4319-8d14-06da068fdd19")
+	)
+	(label "BAT+"
+		(at 261.62 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f260667d-37a0-433f-b99a-bd774b884776")
 	)
 	(label "INT"
 		(at 229.87 143.51 0)
