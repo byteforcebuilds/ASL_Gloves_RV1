@@ -1,0 +1,66 @@
+# EDA generated files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.tr
+*.rpt
+*.pwr
+*.pnr
+*.lock
+*.lck
+*.db
+*.db9
+ 
+# EDA build folders
+impl/
+syn/
+sim/
+simulation/
+.ipcache/
+
+# HLS build folders
+solution*/
+csim/
+cosim/
+ 
+# IP Core generated output
+# Keep .ipc config files but ignore generated HDL
+src/ipcore/
+ip/*/
+ 
+# Bitstreams — KEEP for flashing without synthesis
+# .fs files are committed so team can flash
+# directly without running full synthesis
+# Uncomment the line below to ignore them instead
+# *.fs
+ 
+# OS / Editor Junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+ 
+# Temporary Files
+*.tmp
+*.bak
+
+# User-specific Gowin project settings (like Vivado .xpr.user)
+*.gprj.user
+*.xpr.user
+
+# Bambu generated Verilog output
+src/generated/
+
+# Vivado/Vitis generated files
+*.xsa
+*.sdk
+*.hw
+*.cache
+*.run
+*.export
+*.ip_user_files/
+
+sim/*.vcd
+sim/*.ghw

@@ -1,0 +1,11 @@
+{
+  "name": "tcn_inference",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "tcn_inference.cfg"
+    ],
+    "work_dir": "tcn_inference"
+  }
+}
