@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../../Downloads/wrist_board.dsn",
-      "step": "../../../OneDrive/Documents/GLBs/wrist_board.glb",
+      "step": "../../../Downloads/wrist_board.step",
       "svg": "",
       "vrml": ""
     },
