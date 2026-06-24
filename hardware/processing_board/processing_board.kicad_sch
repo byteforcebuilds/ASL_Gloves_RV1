@@ -16705,7 +16705,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 350.52) (xy 41.91 349.25)
+			(xy 41.91 350.52) (xy 41.91 347.98)
 		)
 		(stroke
 			(width 0)
@@ -19585,7 +19585,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 344.17) (xy 41.91 340.36)
+			(xy 41.91 342.9) (xy 41.91 340.36)
 		)
 		(stroke
 			(width 0)
@@ -26855,7 +26855,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 41.91 346.71 0)
+		(at 41.91 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26863,7 +26863,7 @@
 		(dnp no)
 		(uuid "3bd69646-af42-417d-be9f-b9bb9b50be86")
 		(property "Reference" "C30"
-			(at 43.942 344.932 0)
+			(at 43.942 343.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26872,7 +26872,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 43.688 347.218 0)
+			(at 43.688 345.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26881,7 +26881,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 346.71 0)
+			(at 41.91 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26890,7 +26890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 346.71 0)
+			(at 41.91 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26899,7 +26899,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 41.91 346.71 0)
+			(at 41.91 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
