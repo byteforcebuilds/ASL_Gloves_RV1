@@ -12875,7 +12875,7 @@
 	)
 	(text "USB-C TO JTAG BRIDGE\n"
 		(exclude_from_sim no)
-		(at 283.21 90.424 0)
+		(at 283.21 89.154 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13262,12 +13262,6 @@
 		(uuid "676f30f7-ebdd-4e4b-ac6d-f1bc26e5de41")
 	)
 	(junction
-		(at 326.39 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a5d4aa-da34-4760-9701-36a0d1e09b88")
-	)
-	(junction
 		(at 373.38 350.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13620,6 +13614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2982d06-67fe-4f9b-b06a-19d0492aed48")
+	)
+	(junction
+		(at 232.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2dff9ba-c1b1-406b-b66b-2fb6ae64bb49")
 	)
 	(junction
 		(at 269.24 350.52)
@@ -17735,16 +17735,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 119.38) (xy 326.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98772dec-2973-491f-9153-e8d22e07046b")
-	)
-	(wire
-		(pts
 			(xy 102.87 281.94) (xy 111.76 281.94)
 		)
 		(stroke
@@ -18525,7 +18515,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 111.76) (xy 252.73 111.76)
+			(xy 232.41 111.76) (xy 252.73 111.76)
 		)
 		(stroke
 			(width 0)
@@ -18872,6 +18862,16 @@
 			(type default)
 		)
 		(uuid "cec3b883-6e7d-44c5-91ba-2889faa2f794")
+	)
+	(wire
+		(pts
+			(xy 227.33 111.76) (xy 232.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2545fb-d9a6-4cee-84c8-c72029def90d")
 	)
 	(wire
 		(pts
@@ -21013,16 +21013,6 @@
 		)
 		(uuid "bc519236-640c-489b-bacd-f865a2840715")
 	)
-	(label "TMS"
-		(at 332.74 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3083605-7909-4343-9327-4453925047bf")
-	)
 	(label "VCCAUX"
 		(at 500.38 147.32 0)
 		(effects
@@ -21042,6 +21032,16 @@
 			(justify left bottom)
 		)
 		(uuid "c81eebfa-c618-445d-8b46-bf2a77a76f7b")
+	)
+	(label "TMS"
+		(at 313.69 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9607b0b-3e53-4f4a-84b1-fda029be6941")
 	)
 	(label "VCCINT"
 		(at 406.4 205.74 0)
@@ -25444,6 +25444,72 @@
 			(project ""
 				(path "/de118238-5cf0-4f20-b51d-7acba9897a1d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30169571-991f-406b-8c5a-36374e9deefd")
+		(property "Reference" "#PWR0145"
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cd93e66-339a-423e-b8f5-74e1ecc3c7ac")
+		)
+		(instances
+			(project ""
+				(path "/de118238-5cf0-4f20-b51d-7acba9897a1d"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -33699,7 +33765,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 250.19 111.76 0)
+		(at 227.33 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33708,7 +33774,7 @@
 		(fields_autoplaced yes)
 		(uuid "83185aab-0133-4f6a-b18a-e6537e7ea5d5")
 		(property "Reference" "#PWR034"
-			(at 250.19 115.57 0)
+			(at 227.33 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33717,7 +33783,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 250.19 106.68 0)
+			(at 227.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33725,7 +33791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 111.76 0)
+			(at 227.33 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33734,7 +33800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 111.76 0)
+			(at 227.33 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33743,7 +33809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 250.19 111.76 0)
+			(at 227.33 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44540,6 +44606,76 @@
 			(project "processing_board"
 				(path "/de118238-5cf0-4f20-b51d-7acba9897a1d"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 232.41 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff95d1d3-9e46-424f-a92a-571270aa3ec3")
+		(property "Reference" "C84"
+			(at 234.95 113.1569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 234.95 115.6969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc73ca8d-0190-4d4a-88d1-83040d6d4616")
+		)
+		(pin "2"
+			(uuid "43c6bdb4-69de-4449-9c6d-f2535c8e4264")
+		)
+		(instances
+			(project ""
+				(path "/de118238-5cf0-4f20-b51d-7acba9897a1d"
+					(reference "C84")
 					(unit 1)
 				)
 			)
