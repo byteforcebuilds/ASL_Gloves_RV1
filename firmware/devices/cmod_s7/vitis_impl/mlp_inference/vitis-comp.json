@@ -1,0 +1,11 @@
+{
+  "name": "mlp_inference",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "mlp_inference.cfg"
+    ],
+    "work_dir": "mlp_inference"
+  }
+}
