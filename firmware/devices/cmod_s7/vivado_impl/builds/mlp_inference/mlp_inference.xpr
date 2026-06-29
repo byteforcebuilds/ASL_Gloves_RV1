@@ -4,10 +4,10 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="C:/GitRepos/Capstone/ASL_Gloves_RV1/firmware/devices/cmod_s7/vivado_impl/tcn_inference/tcn_inference.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="C:/GitRepos/Capstone/ASL_Gloves_RV1/firmware/devices/cmod_s7/vivado_impl/mlp_inference/mlp_inference.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="96d20d8e3505445cb04142c627621069"/>
+    <Option Name="Id" Val="a07fd5d4cb8f4cdbad555d7745df7ac6"/>
     <Option Name="Part" Val="xc7s25csga225-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>

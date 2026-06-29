@@ -1,11 +1,11 @@
 {
-  "name": "tcn_inference",
+  "name": "full_inference",
   "type": "HLS",
   "configuration": {
     "componentType": "HLS",
     "configFiles": [
-      "tcn_inference.cfg"
+      "full_inference.cfg"
     ],
-    "work_dir": "tcn_inference"
+    "work_dir": "full_inference"
   }
 }
