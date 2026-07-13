@@ -18,6 +18,7 @@ env/
 
 # Model checkpoints
 checkpoints/
+*.pt
 
 # OS
 .DS_Store
